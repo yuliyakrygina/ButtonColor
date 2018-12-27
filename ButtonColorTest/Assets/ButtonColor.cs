@@ -25,9 +25,9 @@ public class ButtonColor : MonoBehaviour
     {
         if (isGreen)
         {
-            //theColor.normalColor = Color.green;
             theColor.highlightedColor = Color.green;
             //theColor.pressedColor = Color.green;
+            //theColor.normalColor = Color.green;
             theButton.colors = theColor;
 
             print("Clicked");
